@@ -44,6 +44,7 @@ Real-world use case: In cloud platforms (like Cisco Secure Access), when a user 
 🔧 2. What Problem Does This Project Solve?
 
 Problem	Solution:
+
 You want a user to log in and receive a token securely ->	Generate JWT containing user details
 You want role-based access control -> 	Embed role (admin/user) in JWT
 You want the token to expire ->	Add expiry using exp claim
@@ -115,6 +116,7 @@ Server needs to store session data (RAM/Database)
 Not scalable in microservices or cloud
 
 ✅ In Stateless Authentication (using JWT):
+
 You log in → Server gives you a JWT token (with your info inside)
 
 You store it on your browser or mobile app
@@ -126,6 +128,7 @@ If token is valid, you’re allowed access. No server memory needed.
 Stateless = Server doesn’t store who is logged in — it just verifies the token.
 
 --> Where Is Stateless Authentication Used Today?
+
 Industry	Example
 🌐 Web Applications	Google, Facebook, Netflix use JWT tokens
 ☁️ Cloud Security	Cisco Secure Access, AWS IAM uses stateless tokens
@@ -136,6 +139,7 @@ Industry	Example
 
 🧠 Why Do Engineers Prefer Stateless?
 Reason	Why it Matters
+
 ✅ Scalable	No sessions to store per user
 ✅ Faster	Verifies token, doesn’t need DB check
 ✅ Secure	Tokens have expiry & are signed
@@ -155,6 +159,7 @@ Unix()	Converts time to UNIX timestamp (used in JWT exp)
 
 💻 Tech Stack
 Technology	Use
+
 GoLang	Core programming
 golang-jwt	JWT signing & claims
 CLI	Terminal-based input
@@ -162,6 +167,7 @@ HMAC-SHA256	Secure signing algorithm
 
 Learn GoLang – Resources for Beginners
 Type	Link
+
 🧑‍💻 Practice	Go by Example
 🎓 Interactive	Tour of Go (Official)
 📺 Crash Course	YouTube: FreeCodeCamp GoLang Crash Course
