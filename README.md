@@ -173,5 +173,6 @@ Type	Link
 📺 Crash Course	YouTube: FreeCodeCamp GoLang Crash Course
 🐙 GitHub	GoLang JWT Repo Examples.
 
-
+JWT Token Output: 
+https://github.com/KomalKu6/JWT-Generator-CLI/blob/b90203382b6f21a0ce2a0fc2c240fa644413f756/Screenshot%20(2).png
 
