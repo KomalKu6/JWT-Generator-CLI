@@ -166,10 +166,10 @@ CLI	Terminal-based input
 HMAC-SHA256	Secure signing algorithm
 
 Learn GoLang – Resources for Beginners
-Type	Link
 
-🧑‍💻 Practice	Go by Example
-🎓 Interactive	Tour of Go (Official)
+🧑‍💻 Go by Example: https://gobyexample.com/ or
+   https://golangr.com/exercises
+🎓 Interactive Go Tour: https://go.dev/tour/
 📺 Crash Course	YouTube: FreeCodeCamp GoLang Crash Course
 🐙 GitHub	GoLang JWT Repo Examples.
 
