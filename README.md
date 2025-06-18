@@ -1,5 +1,5 @@
 # JWT-Generator-CLI -GoLang
-
+    
 A command-line tool that generates secure **JWT tokens** (JSON Web Tokens) based on user input.  
 This tool simulates **how login systems** issue tokens in real-world cloud platforms.
 
